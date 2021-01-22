@@ -1,0 +1,124 @@
+.home__Project-section {
+    color: #fff;
+    padding: 160px 0;
+  }
+  
+  .home__Project-row {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__Project-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #f00946;
+    font-size: 100px;
+    line-height: 16px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    /* text-transform: uppercase; */
+    margin-bottom: 16px;
+  }
+  
+  .heading {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+  }
+  
+  .dark {
+    color:#2b2b2b
+  }
+  
+  .darkBg {
+    background-color:#2b2b2b
+  }
+  
+  .home__Project-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .home__Project-img-wrapper {
+    max-width: 555px;
+  }
+  
+  .home__Project-img {
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  .project-links >:hover{
+    color: #f00946;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  .project-links{
+      color: #272727;
+      text-decoration: none;
+  }
+  .github-link:hover{
+    color: #f00946;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  .icon-github{
+      color: #272727;
+  }
+  .icon-github:hover{
+    color: #f00946;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__Project-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
