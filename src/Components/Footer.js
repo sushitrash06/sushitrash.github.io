@@ -1,6 +1,6 @@
 import React from 'react'
-import {SiReact} from 'react-icons/si'
-import FavoriteIcon from '@material-ui/icons/Favorite';
+// import {SiReact} from 'react-icons/si'
+// import FavoriteIcon from '@material-ui/icons/Favorite';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';

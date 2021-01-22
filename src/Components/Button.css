@@ -6,7 +6,7 @@
 }
 .button-download{
         --color: #19bc8b;
-        --hover: #c5051f;
+        --hover: #00c9b8;
 }
 button {
     color: var(--color);
@@ -25,7 +25,7 @@ button {
     padding: 1em 2em;
 }
 .button-download{
-    width: 50%;
+    width: 60%;
     /* height: 100px; */
 }
 .button{
@@ -35,6 +35,10 @@ button {
     height: 200px;
     /* border: 3px solid green; */
 }
+.button-link{
+    color: antiquewhite;
+    text-decoration: none;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -42,4 +46,9 @@ button {
     height: 100px;
     background:  #2b2b2b;
     /* border: 3px solid green;  */
+    }
+    @media screen and (max-width: 868px){
+        .center{
+            height: 400px;
+        }
     }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Components/Button.css'
+import {Link} from 'react-router-dom'
 
 function cv_ku() {
     const lightBg = false;
@@ -24,7 +25,7 @@ function cv_ku() {
                 }}
             >Wanna know about me?</h1>
             <div className='center'>
-            <button className='button-download' align='center'>Click Here for see my resume!</button>
+            <button  className='button-download'  align='center'><Link to={'//drive.google.com/file/d/1Bmymy-kIhx2jfJ-vGp3ZWBR6EiWT7Prk/view?usp=sharing'} target='__blank' align='center' className='button-link'>Click Here for see my resume!</Link></button>
             </div>
         </div>
     </div>
