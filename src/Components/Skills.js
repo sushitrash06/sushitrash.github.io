@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Components/Skill.css'
-import {Paper} from '@material-ui/core'
+
 function Skills() {
     const lightBg = true;
     return (
